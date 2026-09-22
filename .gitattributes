@@ -1,0 +1,13 @@
+# 训练代码面向 Linux（AutoDL）运行，统一强制 LF，避免 CRLF 导致 shell 脚本失效
+* text=auto eol=lf
+*.sh  text eol=lf
+*.py  text eol=lf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pt  binary
+*.pth binary
+*.zip binary
+*.onnx binary
