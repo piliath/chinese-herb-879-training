@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 训练产物（体积大，不入库）=====
+*.pth
+*.pt
+*.onnx
+*.h5
+*.safetensors
+
+# 数据集
+kaggle/dataset_*/
+kaggle/kagglehub/
+*.zip
+
+# runs / 权重 / 日志
+kaggle/runs/
+kaggle/runs_*/
+kaggle/results_ablation/logs/
+kaggle/results_ablation/progress_chart.png
+*.log
+*.log.*
+
+# 诊断/分析产物（可在本地重新生成）
+kaggle/diagnosis_*/
+kaggle/analysis_out/
+kaggle/conflict_manifest.json
+kaggle/duplicate_report.json
+kaggle/clean_report.json
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

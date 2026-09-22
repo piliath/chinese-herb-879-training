@@ -1,0 +1,22 @@
+{
+  "single_top1": {
+    "base": 76.342,
+    "no_weighted": 76.49,
+    "weak_mixup": 76.25,
+    "weak_aug": 76.262,
+    "two_stage": 75.634,
+    "logit_adjust": 76.071,
+    "base_448": 76.422
+  },
+  "ensemble_all": 77.462,
+  "greedy_subset": [
+    "no_weighted",
+    "weak_mixup",
+    "base_448",
+    "logit_adjust",
+    "base",
+    "weak_aug",
+    "two_stage"
+  ],
+  "greedy_top1": 76.157
+}

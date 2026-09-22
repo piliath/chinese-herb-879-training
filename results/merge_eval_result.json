@@ -1,0 +1,116 @@
+{
+  "raw_top1": 77.487,
+  "merged_top1": 78.312,
+  "delta": 0.825,
+  "num_merged_classes": 30,
+  "num_groups": 15,
+  "involved_classes_raw_top1": 58.35,
+  "involved_classes_merged_top1": 84.676,
+  "per_group": [
+    {
+      "group": "丹参/甘肃丹参",
+      "samples": 32,
+      "raw_correct": 14,
+      "merged_correct": 28,
+      "recovered": 14
+    },
+    {
+      "group": "续断/川续断",
+      "samples": 30,
+      "raw_correct": 14,
+      "merged_correct": 26,
+      "recovered": 12
+    },
+    {
+      "group": "丝瓜络/粤丝瓜络",
+      "samples": 34,
+      "raw_correct": 23,
+      "merged_correct": 32,
+      "recovered": 9
+    },
+    {
+      "group": "淫羊藿/巫山淫羊藿",
+      "samples": 33,
+      "raw_correct": 15,
+      "merged_correct": 30,
+      "recovered": 15
+    },
+    {
+      "group": "蔓荆子/单叶蔓荆子",
+      "samples": 34,
+      "raw_correct": 17,
+      "merged_correct": 27,
+      "recovered": 10
+    },
+    {
+      "group": "络石藤/广东络石藤",
+      "samples": 30,
+      "raw_correct": 19,
+      "merged_correct": 22,
+      "recovered": 3
+    },
+    {
+      "group": "海桐皮/广东海桐皮",
+      "samples": 25,
+      "raw_correct": 13,
+      "merged_correct": 15,
+      "recovered": 2
+    },
+    {
+      "group": "合欢花/广东合欢花",
+      "samples": 41,
+      "raw_correct": 28,
+      "merged_correct": 38,
+      "recovered": 10
+    },
+    {
+      "group": "王不留行/广东王不留行",
+      "samples": 32,
+      "raw_correct": 22,
+      "merged_correct": 26,
+      "recovered": 4
+    },
+    {
+      "group": "升麻/广升麻",
+      "samples": 35,
+      "raw_correct": 20,
+      "merged_correct": 28,
+      "recovered": 8
+    },
+    {
+      "group": "石菖蒲/九节菖蒲",
+      "samples": 34,
+      "raw_correct": 23,
+      "merged_correct": 27,
+      "recovered": 4
+    },
+    {
+      "group": "七叶一枝花/重楼",
+      "samples": 39,
+      "raw_correct": 22,
+      "merged_correct": 35,
+      "recovered": 13
+    },
+    {
+      "group": "土牛膝/倒扣草",
+      "samples": 35,
+      "raw_correct": 20,
+      "merged_correct": 29,
+      "recovered": 9
+    },
+    {
+      "group": "葛根/粉葛",
+      "samples": 39,
+      "raw_correct": 24,
+      "merged_correct": 34,
+      "recovered": 10
+    },
+    {
+      "group": "石斛/铁皮石斛",
+      "samples": 36,
+      "raw_correct": 23,
+      "merged_correct": 34,
+      "recovered": 11
+    }
+  ]
+}
