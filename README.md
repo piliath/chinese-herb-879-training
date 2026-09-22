@@ -28,7 +28,7 @@
 
 本仓库是我们课程项目《基于深度学习的中草药检测系统》的**研究扩展**。主系统面向 47 类常用药材，做成了一个可用的桌面应用（识别、模拟考试、错题本等）；而这里（879 类研究模式）负责把精度推到"研究上限"：
 
-用开源竞赛数据集（Kaggle chinese-medicine-image，16.7 万张 / 879 类），围绕四到五条实验主线进行了系统探索，并全程遵循**干净评估协议**——无泄漏切分、不污染测试集、不在验证集上做任何"手动调优"。
+用开源竞赛数据集（[Kaggle chinese-medicine-image](https://www.kaggle.com/competitions/chinese-medicine-image)，16.7 万张 / 879 类），围绕四到五条实验主线进行了系统探索，并全程遵循**干净评估协议**——无泄漏切分、不污染测试集、不在验证集上做任何"手动调优"。
 
 ## 三、核心成果一览
 
@@ -140,7 +140,7 @@
 
 数据集：
 
-- 879 类（Kaggle chinese-medicine-image）：[ModelScope 数据集](https://www.modelscope.cn/datasets/Lihuahua2022/Chinese_medicine_image)
+- 879 类：[Kaggle 竞赛原始数据集](https://www.kaggle.com/competitions/chinese-medicine-image)（16.7 万张 / 879 类）· [ModelScope 镜像](https://www.modelscope.cn/datasets/Lihuahua2022/Chinese_medicine_image)
 - 47 类（herbal-eoeld V5）：[ModelScope 数据集](https://www.modelscope.cn/datasets/Lihuahua2022/zhongcaoyao)
 
 ---
@@ -279,4 +279,4 @@ python kaggle/analysis_plots.py
 
 ## 八、数据许可
 
-Kaggle chinese-medicine-image 竞赛数据集，使用须遵守 Kaggle 竞赛条款；47 类 herbal-eoeld V5 数据集来自 Roboflow 公开数据集。权重发布在 ModelScope，仅供学习研究使用。
+[Kaggle chinese-medicine-image 竞赛数据集](https://www.kaggle.com/competitions/chinese-medicine-image)，使用须遵守 Kaggle 竞赛条款；47 类 herbal-eoeld V5 数据集来自 Roboflow 公开数据集。权重发布在 ModelScope，仅供学习研究使用。

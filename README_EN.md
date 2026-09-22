@@ -28,7 +28,7 @@ So underneath the headline "train a 879-class classifier," this project answers 
 
 This repository is the **research extension** of our course project, *A Chinese Herb Detection System Based on Deep Learning*. The main system targets 47 common herbs and ships as a usable desktop app (recognition, mock exams, wrong-answer book, etc.). Here (the 879-class research mode) our job is to push accuracy to its *research limit*:
 
-Using an open-source competition dataset (Kaggle chinese-medicine-image, 167k images / 879 classes), we systematically explored four-to-five experiment tracks — all under a **clean-evaluation protocol**: leakage-free split, no test-set contamination, and no manual tuning on the validation set.
+Using an open-source competition dataset ([Kaggle chinese-medicine-image](https://www.kaggle.com/competitions/chinese-medicine-image), 167k images / 879 classes), we systematically explored four-to-five experiment tracks — all under a **clean-evaluation protocol**: leakage-free split, no test-set contamination, and no manual tuning on the validation set.
 
 ## 3 · Key results at a glance
 
@@ -140,7 +140,7 @@ Every checkpoint exceeds GitHub's 100MB per-file limit, so **weights are not sto
 
 Datasets:
 
-- 879-class (Kaggle chinese-medicine-image): [ModelScope dataset](https://www.modelscope.cn/datasets/Lihuahua2022/Chinese_medicine_image)
+- 879-class: [Kaggle competition dataset](https://www.kaggle.com/competitions/chinese-medicine-image) (167k images / 879 classes) · [ModelScope mirror](https://www.modelscope.cn/datasets/Lihuahua2022/Chinese_medicine_image)
 - 47-class (herbal-eoeld V5): [ModelScope dataset](https://www.modelscope.cn/datasets/Lihuahua2022/zhongcaoyao)
 
 ---
@@ -279,4 +279,4 @@ Synonym/geo-variant merging (sample; full list in `results/merge_eval_result.jso
 
 ## 8 · Data license
 
-Kaggle chinese-medicine-image competition dataset — usage must follow Kaggle competition terms. The 47-class herbal-eoeld V5 dataset comes from Roboflow public datasets. Weights are published on ModelScope for learning/research purposes only.
+[Kaggle chinese-medicine-image competition dataset](https://www.kaggle.com/competitions/chinese-medicine-image) — usage must follow Kaggle competition terms. The 47-class herbal-eoeld V5 dataset comes from Roboflow public datasets. Weights are published on ModelScope for learning/research purposes only.
